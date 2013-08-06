@@ -1,0 +1,32 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>Hello, world!</p>
+  <form action="/cool_url" method="get">
+    <p>Hi there here is the get format:</p>
+    <input type="text" name="user_input">
+    <input type="submit" value="submit!">
+    <br>
+    <input type="radio" name="group1" value="display"> display word
+    <input type="radio" name="group1" value="hide" checked> hide word
+  </form>
+  <form action="/cool_url" method="post">
+    <p>Hi there here is the put format:</p>
+    <input type="text" name="user_input">
+    <input type="submit" value="submit!" name="hello"><br>
+    <input type="checkbox" name="option1" value="nice"> say it nicely
+    <input type="checkbox" name="option2" value="mean" checked>say it meanly
+  </form>
+  <h2> This is a text area!!!</h2>
+  <textarea cols="40" rows="5" name="myname">
+Now we are inside the area - which is nice.
+  </textarea>
+  <h2> You are:</h2>
+  <form action="/cool_verifier" method="get">
+  <select name = "drop">
+    <option value ="matrix">cool</option>
+    <option value ="avatar">too cool</option>
+    <option value ="andre3000">whats cooler than being cool?</option>
+  </select>
+  <input type="submit" value ="submit" name="submit">
+  </form>
+</div>
